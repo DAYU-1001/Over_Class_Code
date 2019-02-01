@@ -2,7 +2,7 @@
 clc;
 clear;
 
-%绘制Griewank函数图形
+%绘制Rastrigin函数图形
 x=[-5:0.1:5];
 y=x;
 [X,Y]=meshgrid(x,y);
