@@ -104,7 +104,17 @@ PSO算法起源于对简单社会系统的模拟，具有很好的生物社会�
 
  群体内（或邻域内）所有粒子经过的最好点表示为gBest，这个全局最优向量起到引导粒子向该全局最优区域收敛的作用。
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\linewidth]{pic/Base_PSO}
+	\caption{每代粒子位置的更新方式}
+
+\end{figure}
+
 一般来说，粒子的位置和速度都是在连续的实数空间内进行取值。
+
+
+
 \subsubsection{算法流程}
 
 基本粒子群优化算法流程如下：
@@ -127,7 +137,60 @@ PSO算法起源于对简单社会系统的模拟，具有很好的生物社会�
 	\end{equation}
 	
 	\item 若未达到终止条件，则转第二步。一般将终止条件设定为一个足够好的适应值或达到一个预设的最大迭代代数。
+
+
+%\begin{algorithm}[!h]
+%	\caption{PARTITION$(A,p,r)$}%算法标题
+%	\begin{algorithmic}[1]%一行一个标行号
+%		\STATE $i=p$
+%		\FOR{$j=p$ to $r$}
+%		\IF{$A[j]<=0$}
+%		\STATE $swap(A[i],A[j])$
+%		\STATE $i=i+1$
+%		\ENDIF
+%		\ENDFOR
+%	\end{algorithmic}
+%\end{algorithm}
+
+%\floatname{algorithm}{算法}  
+
+
+%\renewcommand{\algorithmicrequire}{\textbf{输入:}}  
+%\renewcommand{\algorithmicensure}{\textbf{输出:}}
+
 \end{enumerate}
+
+\renewcommand{\algorithmcfname}{算法}%英文改中文
+\begin{algorithm}[H]
+	\SetKwInOut{KIN}{输入}%英文改中文
+	\SetKwInOut{KOUT}{输出}%英文改中文
+	\caption{基本粒子群算法}
+	\KIN{迭代次数T;种群规模NP;问题维度D}
+	\KOUT{全局最佳位置向量$\bm{x^*(t)}$}
+	t$\gets$1(\mathcal{initialization})\;
+	初始化粒子的位置向量\qquad$x_i^d=x_{min}+rand()*(x_{max}-x_{min})$\;
+	初始化粒子的速度向量\qquad$v_i^d=v_{min}+rand()*(v_{max}-v_{min})$\;
+	\While{($|f(x(t)^*\geq\varepsilon)|$)or(t$\leq$T)}{
+		\For{i=1 to NP}{
+			$f(x_i(t))\gets$计算粒子的适应度数值$x_i(t)$\;
+			更新粒子i局部最优值$pbest_i(t)$\;
+			更新种群全局最优位置gbest(t)\;}
+		\For{i=1 to NP}{
+			\For{j=1 to D}{更新粒子的速度向量$V_i(t)$和位置向量$X_i(t)$\;
+				$v_i^j\gets v_i^j(t)+c_1r_1*(P_i^j(t)-x_i^j(t))+c_2r_2*(G^j(t)-x_i^j(t))$\;
+				$x_i^j\gets x_i^j(t)+v_i^j(t)$\;}}
+		t$\gets$t+1\;
+	}
+	\textbf{return $x^*(t)$}\;
+\end{algorithm}
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\linewidth]{pic/PSO_flow}
+	\caption{PSO算法流程图}
+	
+\end{figure}
+
 
 其中，c1和c2称为学习因子（Learning Factor）或加速系数（Acceleration Coefficient）, 学习因子使粒子具有自我总结和向群体中优秀个体学习的能力，从而向自己的历史最优点以及群体内的历史最优点靠近，传统上都是取固定值2.0。${rand}_1^d$和${rand}_2^d$是两个[0,1]区间上的随机数。粒子速度被限制在最大速度$V_{max}$内，$V_{max}$的每一维$V_{max}^d$一般可以取相应维的取值范围的10\%—20\%。另外公式(\ref{location})中的位置更新必须是合法的，所以在每次进行更新之后必须进行合法性检测，对越界的位置，需要进行合法性调整，一般的修正方法可以是重新随机设定或限定在边界。
 
@@ -458,41 +521,41 @@ PSO算法随着迭代的进行，结果逐渐向期望的函数最优值靠近�
 		\textbf{迭代步数}  & \textbf{100}   & \textbf{1000}  & \textbf{10000} \\
 		\midrule[1pt]
 
-		$x_1$    & 1.13E-02 & 5.96E-03 & 8.61E-03 \\
-		$x_2$    & -3.54E-02 & 9.06E-04 & -2.75E-02 \\
-		$ x_3 $    & 3.75E-02 & 1.01E-01 & 4.04E-02 \\
-		$ x_4 $    & -3.79E-02 & 2.37E-02 & -3.13E-02 \\
-		$ x_5 $    & 5.35E-02 & 1.01E-03 & 5.16E-02 \\
-		$ x_6 $    & 3.60E-02 & -1.70E-02 & 2.50E-02 \\
-		$ x_7 $    & -4.77E-04 & 3.33E-02 & -3.20E-04 \\
-		$ x_8 $    & -7.66E-03 & -2.49E-02 & -1.74E-02 \\
-		$ x_9 $    & -1.41E-02 & 3.34E-02 & -2.42E-02 \\
-		$ x_{10} $   & 2.57E-02 & -8.24E-02 & 3.68E-02 \\
-		$ x_{11} $   & -1.32E-02 & -1.28E-02 & 1.75E-02 \\
-		$ x_{12} $   & -1.61E-02 & 1.49E-02 & -2.00E-02 \\
-		$ x_{13} $   & 6.18E-02 & -2.61E-02 & 5.96E-02 \\
-		$ x_{14} $   & -4.28E-02 & -9.47E-03 & -3.71E-02 \\
-		$ x_{15} $   & 1.42E-01 & 2.88E-02 & 1.38E-01 \\
-		$ x_{16} $   & -8.43E-02 & 2.83E-03 & -8.19E-02 \\
-		$ x_{17} $   & 4.64E-02 & -5.60E-02 & 5.10E-02 \\
-		$ x_{18} $   & 1.68E-02 & -4.66E-02 & 1.40E-02 \\
-		$ x_{19} $   & 3.21E-02 & -1.56E-03 & 4.59E-03 \\
-		$ x_{20} $   & -1.73E-02 & -1.25E-02 & -2.34E-02 \\
-		$ x_{21} $   & -1.27E-02 & 2.07E-02 & -1.75E-02 \\
-		$ x_{22} $   & -2.05E-03 & 6.86E-03 & -5.10E-03 \\
-		$ x_{23} $   & 3.17E-02 & -2.68E-02 & 3.48E-02 \\
-		$ x_{24} $   & 8.85E-03 & 4.94E-03 & 9.85E-03 \\
-		$ x_{25} $   & -1.91E-02 & 2.80E-02 & -1.39E-02 \\
-		$ x_{26} $   & -5.33E-02 & -1.87E-02 & -4.41E-02 \\
-		$ x_{27} $   & -5.62E-03 & 6.14E-02 & 1.16E-02 \\
-		$ x_{28} $   & -5.47E-02 & 1.07E-01 & -5.39E-02 \\
-		$ x_{29} $   & -7.46E-03 & -4.50E-02 & 6.20E-03 \\
-		$ x_{30} $   & -3.17E-02 & 1.01E-02 & -4.03E-02 \\
-		\midrule[1pt]
+%		$x_1$    & 1.13E-02 & 5.96E-03 & 8.61E-03 \\
+%		$x_2$    & -3.54E-02 & 9.06E-04 & -2.75E-02 \\
+%		$ x_3 $    & 3.75E-02 & 1.01E-01 & 4.04E-02 \\
+%		$ x_4 $    & -3.79E-02 & 2.37E-02 & -3.13E-02 \\
+%		$ x_5 $    & 5.35E-02 & 1.01E-03 & 5.16E-02 \\
+%		$ x_6 $    & 3.60E-02 & -1.70E-02 & 2.50E-02 \\
+%		$ x_7 $    & -4.77E-04 & 3.33E-02 & -3.20E-04 \\
+%		$ x_8 $    & -7.66E-03 & -2.49E-02 & -1.74E-02 \\
+%		$ x_9 $    & -1.41E-02 & 3.34E-02 & -2.42E-02 \\
+%		$ x_{10} $   & 2.57E-02 & -8.24E-02 & 3.68E-02 \\
+%		$ x_{11} $   & -1.32E-02 & -1.28E-02 & 1.75E-02 \\
+%		$ x_{12} $   & -1.61E-02 & 1.49E-02 & -2.00E-02 \\
+%		$ x_{13} $   & 6.18E-02 & -2.61E-02 & 5.96E-02 \\
+%		$ x_{14} $   & -4.28E-02 & -9.47E-03 & -3.71E-02 \\
+%		$ x_{15} $   & 1.42E-01 & 2.88E-02 & 1.38E-01 \\
+%		$ x_{16} $   & -8.43E-02 & 2.83E-03 & -8.19E-02 \\
+%		$ x_{17} $   & 4.64E-02 & -5.60E-02 & 5.10E-02 \\
+%		$ x_{18} $   & 1.68E-02 & -4.66E-02 & 1.40E-02 \\
+%		$ x_{19} $   & 3.21E-02 & -1.56E-03 & 4.59E-03 \\
+%		$ x_{20} $   & -1.73E-02 & -1.25E-02 & -2.34E-02 \\
+%		$ x_{21} $   & -1.27E-02 & 2.07E-02 & -1.75E-02 \\
+%		$ x_{22} $   & -2.05E-03 & 6.86E-03 & -5.10E-03 \\
+%		$ x_{23} $   & 3.17E-02 & -2.68E-02 & 3.48E-02 \\
+%		$ x_{24} $   & 8.85E-03 & 4.94E-03 & 9.85E-03 \\
+%		$ x_{25} $   & -1.91E-02 & 2.80E-02 & -1.39E-02 \\
+%		$ x_{26} $   & -5.33E-02 & -1.87E-02 & -4.41E-02 \\
+%		$ x_{27} $   & -5.62E-03 & 6.14E-02 & 1.16E-02 \\
+%		$ x_{28} $   & -5.47E-02 & 1.07E-01 & -5.39E-02 \\
+%		$ x_{29} $   & -7.46E-03 & -4.50E-02 & 6.20E-03 \\
+%		$ x_{30} $   & -3.17E-02 & 1.01E-02 & -4.03E-02 \\
+%		\midrule[1pt]
 		Fitness & 2.64E-01 & 2.41E-01 & 2.56E-01 \\
 		\bottomrule[1.5pt]
 	\end{tabular}%
-	\label{tab:addlabel}%
+
 \end{table}%
 \subsubsection{实验结论}
 从表可以看出，迭代步数不一定与获得解得精度成正比，即迭代步数越大，获得解的精度不一定越高。这是因为PSO是一种随机算法，同样的参数也会出现不同的结果。
@@ -510,72 +573,170 @@ PSO算法随着迭代的进行，结果逐渐向期望的函数最优值靠近�
 		\label{tab2}
 		\textbf{种群规模}  & \textbf{10}    & \textbf{100}   & \textbf{1000} \\
 		\midrule[1pt]
-		$ x_1 $    & 7.74E-02 & 2.29E-03 & 3.85E-05 \\
-		$ x_2 $    & 1.71E-02 & 2.71E-03 & 6.71E-06 \\
-		$ x_3 $    & -3.32E-02 & 3.99E-03 & -3.43E-05 \\
-		$ x_4 $    & 9.25E-02 & -7.80E-04 & 3.42E-06 \\
-		$ x_5 $    & 4.60E-02 & -3.85E-03 & 1.70E-05 \\
-		$ x_6 $    & 3.56E-02 & 1.24E-02 & 1.12E-05 \\
-		$ x_7 $    & 4.04E-02 & 4.39E-03 & 3.36E-05 \\
-		$ x_8 $    & -1.43E-01 & -5.00E-03 & 2.09E-05 \\
-		$ x_9 $    & 2.00E-01 & 7.57E-03 & 3.02E-05 \\
-		$ x_{10} $   & -1.45E-01 & 9.44E-03 & -4.09E-05 \\
-		$ x_{11} $   & 2.42E-02 & 7.49E-03 & 6.15E-05 \\
-		$ x_{12} $   & -9.44E-02 & -4.07E-03 & -3.92E-06 \\
-		$ x_{13} $   & 1.03E-01 & -5.64E-03 & -5.73E-06 \\
-		$ x_{14} $   & -4.99E-02 & -1.67E-03 & -4.07E-06 \\
-		$ x_{15} $   & -3.39E-02 & -6.10E-03 & 3.86E-05 \\
-		$ x_{16} $   & 1.36E-01 & 3.88E-04 & -2.23E-05 \\
-		$ x_{17} $   & -6.30E-02 & -1.23E-03 & -2.12E-05 \\
-		$ x_{18} $   & 6.04E-02 & 6.78E-03 & -3.33E-05 \\
-		$ x_{19} $   & 6.43E-02 & -6.15E-03 & -5.09E-05 \\
-		$ x_{20} $   & 1.03E-01 & -3.71E-03 & 6.54E-06 \\
-		$ x_{21} $   & -9.51E-02 & -2.17E-03 & -7.71E-06 \\
-		$ x_{22} $   & 6.25E-02 & 4.31E-03 & 2.70E-05 \\
-		$ x_{23} $   & -6.48E-02 & -1.91E-03 & 2.07E-05 \\
-		$ x_{24} $   & 1.14E-01 & -1.23E-03 & 5.30E-06 \\
-		$ x_{25} $   & 9.40E-03 & -1.76E-03 & -3.11E-05 \\
-		$ x_{26} $   & -8.60E-02 & -1.28E-03 & -4.36E-05 \\
-		$ x_{27} $   & 2.61E-02 & -3.80E-03 & 2.27E-05 \\
-		$ x_{28} $   & -4.59E-02 & -5.10E-03 & -3.71E-07 \\
-		$ x_{29} $   & -2.06E-02 & 4.64E-03 & 1.53E-05 \\
-		$ x_{30} $   & -3.51E-02 & -1.42E-03 & 2.57E-05 \\
-		\midrule[1pt]
+%		$ x_1 $    & 7.74E-02 & 2.29E-03 & 3.85E-05 \\
+%		$ x_2 $    & 1.71E-02 & 2.71E-03 & 6.71E-06 \\
+%		$ x_3 $    & -3.32E-02 & 3.99E-03 & -3.43E-05 \\
+%		$ x_4 $    & 9.25E-02 & -7.80E-04 & 3.42E-06 \\
+%		$ x_5 $    & 4.60E-02 & -3.85E-03 & 1.70E-05 \\
+%		$ x_6 $    & 3.56E-02 & 1.24E-02 & 1.12E-05 \\
+%		$ x_7 $    & 4.04E-02 & 4.39E-03 & 3.36E-05 \\
+%		$ x_8 $    & -1.43E-01 & -5.00E-03 & 2.09E-05 \\
+%		$ x_9 $    & 2.00E-01 & 7.57E-03 & 3.02E-05 \\
+%		$ x_{10} $   & -1.45E-01 & 9.44E-03 & -4.09E-05 \\
+%		$ x_{11} $   & 2.42E-02 & 7.49E-03 & 6.15E-05 \\
+%		$ x_{12} $   & -9.44E-02 & -4.07E-03 & -3.92E-06 \\
+%		$ x_{13} $   & 1.03E-01 & -5.64E-03 & -5.73E-06 \\
+%		$ x_{14} $   & -4.99E-02 & -1.67E-03 & -4.07E-06 \\
+%		$ x_{15} $   & -3.39E-02 & -6.10E-03 & 3.86E-05 \\
+%		$ x_{16} $   & 1.36E-01 & 3.88E-04 & -2.23E-05 \\
+%		$ x_{17} $   & -6.30E-02 & -1.23E-03 & -2.12E-05 \\
+%		$ x_{18} $   & 6.04E-02 & 6.78E-03 & -3.33E-05 \\
+%		$ x_{19} $   & 6.43E-02 & -6.15E-03 & -5.09E-05 \\
+%		$ x_{20} $   & 1.03E-01 & -3.71E-03 & 6.54E-06 \\
+%		$ x_{21} $   & -9.51E-02 & -2.17E-03 & -7.71E-06 \\
+%		$ x_{22} $   & 6.25E-02 & 4.31E-03 & 2.70E-05 \\
+%		$ x_{23} $   & -6.48E-02 & -1.91E-03 & 2.07E-05 \\
+%		$ x_{24} $   & 1.14E-01 & -1.23E-03 & 5.30E-06 \\
+%		$ x_{25} $   & 9.40E-03 & -1.76E-03 & -3.11E-05 \\
+%		$ x_{26} $   & -8.60E-02 & -1.28E-03 & -4.36E-05 \\
+%		$ x_{27} $   & 2.61E-02 & -3.80E-03 & 2.27E-05 \\
+%		$ x_{28} $   & -4.59E-02 & -5.10E-03 & -3.71E-07 \\
+%		$ x_{29} $   & -2.06E-02 & 4.64E-03 & 1.53E-05 \\
+%		$ x_{30} $   & -3.51E-02 & -1.42E-03 & 2.57E-05 \\
+%		\midrule[1pt]
 		Fitness & 6.62E-01 & 2.10E-02 & 1.10E-04 \\
 		\bottomrule[1.5pt]
 	\end{tabular}%
-	\label{tab:addlabel}%
+
 \end{table}%
 
 \subsubsection{实验结论}
 从表中可以看出，种群规模越大，获得解得精度越高。但由于PSO算法是一种随机算法，因此，也存在种群规模小但精度高，或者种群规模大但精度低的情况。
 \subsection{SPSO及其改进算法的仿真实验}
 \subsubsection{测试函数}
-为了评价PSO算法的收敛速度、全局搜索能力及求解精度，采用8个典型基准测试函数进行对比分析，其中$f_1,f_2,f_3,f_4$是多峰函数，主要用于检验算法的全局搜索能力；$f_5,f_6,f_7,f_8$为单峰函数，主要用于检验算法的收敛速度和求解精度。测试函数的名称、变量的取值范围如下表(3)所列，其中SDP函数全称为Sum of Different Power，8个测试函数目标值(最优值)均为0。
+为了评价PSO算法的收敛速度、全局搜索能力及求解精度，采用8个典型基准测试函数进行对比分析，其中$f_1,f_2,f_3,f_4$是多峰函数，主要用于检验算法的全局搜索能力；$f_5,f_6,f_7,f_8$为单峰函数，主要用于检验算法的收敛速度和求解精度。测试函数的名称、变量的取值范围如下表(3)所列，其中SDP函数全称为Sum of Different Power，Schwefel函数为Schwefel P2.22版本。8个测试函数目标值(最优值)均为0。
+
 % Table generated by Excel2LaTeX from sheet 'Sheet1'
 \begin{table}[htbp]
 	\label{tab3}
-	\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
-	%\centering
-	\raggedleft
-	\caption{8个经典测试函数}
-	
-	\begin{tabular}{llc}
+	\centering
+	%\raggedleft
+	\caption{本文使用的8个测试函数}
+	\begin{tabular}{ll}
 		\toprule[1.5pt]
-		函数名称  & \multicolumn{1}{c}{测试函数} & 搜索空间 \\
+		\textbf{函数名称}  & \textbf{测试函数} \\
 		\midrule[1pt]
-		Ackley & \tabincell{r}{$f_1=20-20e^{-0.2\sqrt{\frac{1}{n}*\sumx_i^2}}$ \\$+e-e^{\frac{1}{n}\sum cos(2\pi x_i)} $} & (-32,32) \\
-		Rastrigin & \tabincell{r}{$f_2=\sum (x_i^2+10\\-10cos(2\pi x_i))$}    & (-5.12,5.12) \\
-		Griewank & \tabincell{r}{$ f_3=\frac{1}{4000}\sum x_i^2\\-\prod cos(\frac{x_i}{\sqrt{i}})+1 $}    & (-600,600) \\
-		Alpine & $ f_4=\sum |x_isin(x_i)+0.1x_i| $    & (-10,10) \\
-		Sphere & $ f_5=\sum x_i^2 $    & (-100,100) \\
-		Rosenbrock & \tabincell{r}{$ f_6=\sum [100(x_{i+1}-x_i^2)^2\\+(x_i-1)^2] $}    & (-30,30) \\
-		Schwefel & $ f_7=\sum |x_i|+\prod |x_i| $    & (-10,10) \\
-		SDP & $ f_8=\sum |x_i|^{i+1} $    & [-1,1] \\
+		Ackley & $f_1=20-20e^{-0.2\sqrt{\frac{1}{n}*\sum x_i^2}}+e-e^{\frac{1}{n}\sum cos(2\pi x_i)} $ \\
+		Rastrigin & $f_2=\sum (x_i^2+10-10cos(2\pi x_i))$    \\
+		Griewank & $ f_3=\frac{1}{4000}\sum x_i^2-\prod cos(\frac{x_i}{\sqrt{i}})+1 $     \\
+		Alpine & $ f_4=\sum |x_isin(x_i)+0.1x_i| $    \\
+		Sphere & $ f_5=\sum x_i^2 $    \\
+		Rosenbrock & $ f_6=\sum [100(x_{i+1}-x_i^2)^2+(x_i-1)^2] $  \\
+		Schwefel & $ f_7=\sum |x_i|+\prod |x_i| $   \\
+		SDP & $ f_8=\sum |x_i|^{i+1} $  \\
 		\bottomrule[1.5pt]
 	\end{tabular}%
-	\label{tab:addlabel}%
 \end{table}%
+% Table generated by Excel2LaTeX from sheet 'Sheet1'
+\begin{table}[htbp]
+%	\raggedleft
+	\begin{tabular}{p{4.3cm}p{3cm}c}
+		\toprule[1.5pt]
+		\textbf{函数名称}  & \textbf{搜索空间}  & \multicolumn{1}{l}{\textbf{目标值}} \\
+		\midrule[1pt]
+		Acley & (-32,32) & 0 \\
+		Rastrigin & (-5.12,5.12) & 0 \\
+		Griewank & (-600,600) & 0 \\
+		Alpine & (-10,10) & 0 \\
+		Sphere & (-100,100) & 0 \\
+		Rosenbrock & (-30,30) & 0 \\
+		Schwefel P2.22 & (-10,10) & 0 \\
+		Sum of Different Power & [-1,1] & 0 \\
+		\bottomrule[1.5pt]
+	\end{tabular}%
+	
+\end{table}%
+
+
+\begin{figure*}[htb]
+	\centering
+	\subfigure[Ackley在搜索空间]{%1
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/1Ackley32}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Ackley在极值点附近]{%2
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/1Ackley2}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Rastrigin在搜索空间]{%3
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/2Rastrigin2}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Rastrigin在极值点附近]{%4
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/2Rastrigin3}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Griewank在搜索空间]{%5
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/3Griewank600}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Griewank在极值点附近]{%6
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/3Griewank2}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Alpine在搜索空间]{%7
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/4Alpine2}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Alpine在极值点附近]{%8
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/4Alpine}\vspace{4pt}
+		\end{minipage}}
+	\subfigure[Sphere在搜索空间]{%9
+		\begin{minipage}[b]{0.23\linewidth}
+			\includegraphics[width=1\linewidth]{pic/5Sphere}\vspace{4pt}
+	\end{minipage}}
+		\subfigure[Rosenbrock在极值点附近]{%10
+			\begin{minipage}[b]{0.23\linewidth}
+				\includegraphics[width=1\linewidth]{pic/6Rosenbrock2}\vspace{4pt}
+		\end{minipage}}
+		\subfigure[Schwefel P2.22在搜索空间]{%11
+			\begin{minipage}[b]{0.23\linewidth}
+				\includegraphics[width=1\linewidth]{pic/7Schwefel}\vspace{4pt}
+		\end{minipage}}
+		\subfigure[Sum of Different Power在搜索空间]{
+			\begin{minipage}[b]{0.23\linewidth}
+				\includegraphics[width=1\linewidth]{pic/8Sum_of_Different_Power}\vspace{4pt}
+		\end{minipage}}
+		\caption{测试函数在其搜索空间及极值点附近图像}
+\end{figure*}
+
+
+%\begin{figure}[ht]
+%	\begin{minipage}[t]{0.5\linewidth}
+%		\centering
+%		\includegraphics[width=1in]{pic/1Ackley32}
+%		\caption{fig1}
+%		\label{fig:side:a}
+%	\end{minipage}
+%	\begin{minipage}[t]{0.5\linewidth}
+%		\centering
+%		\includegraphics[width=1in]{pic/1Ackley2}
+%		\caption{fig2}
+%		\label{fig:side:b}
+%	\end{minipage}
+%
+%\end{figure}
+
+%\newpage
+%\begin{figure}[htbp]
+%	\centering
+%	\includegraphics[width=\linewidth]{pic/Ackley1}
+%	\caption{函数Ackley的收敛结果对比}
+%	\label{fig:Ackley}
+%\end{figure}
+
+
 
 \subsubsection{算法及参数设置}
 本文选取标准PSO算法(基于全局搜索)及其5个经典改进的PSO算法进行比较。这些算法包括基于参数改进的算法，如线性权值递减的LDIW-PSO算法、自适应权值调整的APSO算法；基于学习策略改进的BBPSO算法；混合粒子群算法中的基于杂交的Breed-PSO算法；基于邻域拓扑结构改进的CLPSO算法。
@@ -606,8 +767,6 @@ PSO算法随着迭代的进行，结果逐渐向期望的函数最优值靠近�
 
 
 
-\newpage
-
 \subsubsection{算法测试结果}
 为验证算法性能，将实验分为两组：
 \begin{itemize}
@@ -617,7 +776,7 @@ PSO算法随着迭代的进行，结果逐渐向期望的函数最优值靠近�
 
 为避免算法随机性的影响，每组实验重复执行50次，实验环境为MATLAB 2016a。实验统计结果包括优化结果的均值(Mean)和标准差(Std.Dev)。
 
-第一组实验结果见表(\ref{tab5})(\ref{tab6})
+第一组(函数变量维数D=10，种群规模N=20，最大迭代次数T=1000)实验结果见下表(\ref{tab5})(\ref{tab6})
 
 % Table generated by Excel2LaTeX from sheet 'Sheet1'
 \begin{table}[htbp]
@@ -686,12 +845,14 @@ PSO算法随着迭代的进行，结果逐渐向期望的函数最优值靠近�
 	\label{tab:addlabel}%
 \end{table}%
 \newpage
-第二组实验结果如下表(6)(7)：
+第二组(函数变量维数D=30，种群规模N=80，最大迭代次数T=1000)实验结果如下表(\ref{tab7})(\ref{tab8})：
 
 % Table generated by Excel2LaTeX from sheet 'Sheet2'
 \begin{table}[htbp]
 	\centering
 	\caption{对比算法测试函数的优化结果(D=30,N=80)(1)}
+	\label{tab7}
+	
 	\resizebox{\textwidth/2}{!}{
 	\begin{tabular}{ccrrr}
 		\toprule[1.5pt]
@@ -722,6 +883,7 @@ PSO算法随着迭代的进行，结果逐渐向期望的函数最优值靠近�
 \begin{table}[htbp]
 	\centering
 	\caption{对比算法测试函数的优化结果(D=30,N=80)(2)}
+	\label{tab8}
 	\resizebox{\textwidth/2}{!}{
 	\begin{tabular}{ccrrr}
 		\toprule[1.5pt]
@@ -750,10 +912,95 @@ PSO算法随着迭代的进行，结果逐渐向期望的函数最优值靠近�
 
 
 \newpage
+
+
 \subsubsection{测试结果分析}
+
+\begin{figure*}[htbp]
+	\centering
+	\subfigure[函数Ackley的收敛结果对比]{%1
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Ackley1}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Rastrigin的收敛结果对比]{%2
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Rastrigin1}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Griewank收敛结果对比]{%5
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Griewank1}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Alpine收敛结果对比]{%7
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Alpine1}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Sphere收敛结果对比]{%9
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Sphere1}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Rosenbrock收敛结果对比]{%10
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Rosenbrock1}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Schwefel P2.22收敛结果对比]{%11
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Schwefel1}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Sum of Different Power收敛结果对比]{
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/SDP1}\vspace{4pt}
+	\end{minipage}}
+	\caption{测试函数在D=10维度下收敛过程折线图}
+\end{figure*}
+
+\begin{figure*}[htbp]
+	\centering
+	\subfigure[函数Ackley的收敛结果对比]{%1
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Ackley2}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Rastrigin的收敛结果对比]{%2
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Rastrigin2}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Griewank收敛结果对比]{%5
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Griewank2}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Alpine收敛结果对比]{%7
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Alpine2}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Sphere收敛结果对比]{%9
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Sphere2}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Rosenbrock收敛结果对比]{%10
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Rosenbrock2}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Schwefel P2.22收敛结果对比]{%11
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/Schwefel2}\vspace{4pt}
+	\end{minipage}}
+	\subfigure[函数Sum of Different Power收敛结果对比]{
+		\begin{minipage}[b]{0.32\linewidth}
+			\includegraphics[width=1\linewidth]{pic/SDP2}\vspace{4pt}
+	\end{minipage}}
+	\caption{测试函数在D=30维度下收敛过程折线图}
+\end{figure*}
 从上述实验，我们可以看出基于拓扑结构改变的BBPSO算法在大多数情况下表现最佳。特别是在处理Sphere、Schwefel P2.22、Sum of Different Power此类单峰函数时表现极为出色，能够收敛到很高的程度。
 
 单峰函数$f_6$-Rosenbrock是一类非凸病态函数，也被称作香蕉函数，该函数的全局最优点位于一条狭长的山谷内，许多PSO算法在该函数上的表现并不能令人满意，在该函数上表现最好的LDIW-PSO也是差强人意。
+
+基于广泛学习协同优化策略的综合学习策略的粒子群算法(Comprehensive Learning PSO,CLPSO)，主要学习pBest而不是gBest来更新粒子速度，避免了因gBest落入局部最优而导致的早熟，具有很强的全局搜索能力。虽然上述测试中CLPSO表现平淡，但在迭代次数足够大的情况下，CLPSO有很大概率最终将收敛到全局最优，避免落入局部极值点，具有很强的健壮性。
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=\linewidth]{pic/10000}
+	\caption{CLPSO在SDP函数下迭代10000次结果}
+\end{figure}
+
 \section{分析总结}
 本文就粒子群算法的原理、流程、社会行为分析及算法构成要素作出了详细说明，对粒子群算法的发展、研究内容、特点应用及其改进算法作出了梳理。粒子群算法是一种模拟自然界的生物活动以及群体智能的随机搜索算法。群体中的每个粒子位置代表搜索空间中的一个候选解。粒子个体之间通过位置信息的交流和学习来调整各自搜索方向。粒子群优化由于其算法简单，易于实现，无需梯度信息，参数少等特点在连续优化问题和离散优化问题中都表现出良好的效果，特别是因为其天然实数编码特点适合于处理实优化问题，近年来成为国际上智能优化领域研究的热门。作为一种重要的优化工具，粒子群优化算法已经成功地用于目标函数优化，神经网络训练，模糊控制系统，模式识别，信号处理，图形图像处理，统计学习模型参数优化，机器学习模型参数优化等领域。
 
