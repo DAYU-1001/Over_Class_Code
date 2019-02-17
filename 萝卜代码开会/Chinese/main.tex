@@ -17,6 +17,7 @@
 %\RequirePackage{mathptmx}   % Loads the Times-Roman Math Fonts
 \documentclass[10pt,a4paper,twocolumn]{PPRAcn} % Document font size
 
+
 \usepackage[UTF8]{ctex}
 \usepackage{booktabs}
 %\usepackage{algorithm}  
@@ -29,6 +30,8 @@
 \usepackage{bm,caption,textcomp,subfigure,float}
 \usepackage[keeplastbox]{flushend}
 \usepackage{geometry}
+\usepackage{cite}
+
 \newgeometry{top=28mm,bottom=25mm,left=20mm,right=25mm}
 
 \newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
@@ -37,6 +40,7 @@
 %	COLUMNS
 %----------------------------------------------------------------------------------------
 
+\addtolength{\parskip}{.4em}
 \setlength{\columnsep}{7.0mm} % Distance between the two columns of text
 \setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
 \setlength{\abovecaptionskip}{5pt}
@@ -76,7 +80,6 @@
 \flushbottom % Makes all text pages the same height
 
 \maketitle % Print the title and abstract box
-
 %\tableofcontents % Print the contents section
 
 \thispagestyle{empty} % Removes page numbering from the first page
@@ -94,6 +97,7 @@
 \phantomsection
 \small
 \renewcommand\refname{参考文献}
+
 \bibliographystyle{unsrt}
 \bibliography{essay/ref}
 

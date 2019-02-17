@@ -1,0 +1,396 @@
+% Encoding: UTF-8
+
+@InProceedings{Yanxia2002Chaotic,
+  author    = {Yanxia and Qi and Guoyuan and Wang and Zenghui and Wyk, Van and Jacobus, Barend and Hamam and Yskandar},
+  title     = {Chaotic particle swarm optimization},
+  booktitle = {Congress on Evolutionary Computation},
+  year      = {2002},
+}
+
+@InProceedings{Shi1998A,
+  author    = {Shi, Y. H. and Eberhart, R. C.},
+  title     = {A Modified Particle Swarm Optimizer},
+  booktitle = {Evolutionary Computation Proceedings, 1998. IEEE World Congress on Computational Intelligence., The 1998 IEEE International Conference on},
+  year      = {1998},
+}
+
+@Article{Liang2006Comprehensive,
+  author  = {Liang, J. J and Qin, A. K and Suganthan, Ponnuthurai Nagaratnam and Baskar, S},
+  title   = {Comprehensive learning particle swarm optimizer for global optimization of multimodal functions},
+  journal = {IEEE Transactions on Evolutionary Computation},
+  year    = {2006},
+  volume  = {10},
+  number  = {3},
+  pages   = {281-295},
+}
+
+@Article{Zhan2009Adaptive,
+  author  = {Zhan, Zhi Hui and Zhang, Jun and Li, Yun and Chung, Shu Hung},
+  title   = {Adaptive particle swarm optimization},
+  journal = {IEEE Transactions on Systems Man \& Cybernetics Part B Cybernetics A Publication of the IEEE Systems Man \& Cybernetics Society},
+  year    = {2009},
+  volume  = {39},
+  number  = {6},
+  pages   = {1362-1381},
+}
+
+@InProceedings{Kennedy2003Bare,
+  author    = {Kennedy, James},
+  title     = {Bare bones particle swarms.},
+  booktitle = {Swarm Intelligence Symposium},
+  year      = {2003},
+}
+
+@InProceedings{Campos2013Hierarchical,
+  author    = {Campos, Mauro and Krohling, Renato A.},
+  title     = {Hierarchical bare bones particle swarm for solving constrained optimization problems},
+  booktitle = {Evolutionary Computation},
+  year      = {2013},
+}
+
+@InProceedings{Krohling2009Bare,
+  author    = {Krohling, Renato A. and Mendel, Eduardo},
+  title     = {Bare Bones Particle Swarm Optimization with Gaussian or Cauchy jumps},
+  booktitle = {IEEE Congress on Evolutionary Computation},
+  year      = {2009},
+}
+
+@Article{Huang2006Comprehensive,
+  author  = {Huang, V. L. and Suganthan, P. N. and Liang, J. J.},
+  title   = {Comprehensive learning particle swarm optimizer for solving multiobjective optimization problems},
+  journal = {International Journal of Intelligent Systems},
+  year    = {2006},
+  volume  = {21},
+  number  = {2},
+  pages   = {209-226},
+}
+
+@Article{Fetter1972Quantum,
+  author  = {Fetter, Alexander L and Walecka, John Dirk},
+  title   = {Quantum theory of many-particle systems},
+  journal = {Physics Today},
+  year    = {1972},
+  volume  = {25},
+  number  = {11},
+  pages   = {54-55},
+}
+
+@InProceedings{Eberhart2002A,
+  author    = {Eberhart, R. and Kennedy, J.},
+  title     = {A new optimizer using particle swarm theory},
+  booktitle = {Mhs95 Sixth International Symposium on Micro Machine \& Human Science},
+  year      = {2002},
+}
+
+@InProceedings{Eberhart2002Particle,
+  author    = {Eberhart, Russell C and Shi, Yuhui},
+  title     = {Particle swarm optimization: developments, applications and resources},
+  booktitle = {Congress on Evolutionary Computation},
+  year      = {2002},
+}
+
+@InProceedings{Peer2003Using,
+  author    = {Peer, E. S. and Bergh, F. Van Den and Engelbrecht, A. P.},
+  title     = {Using neighbourhoods with the guaranteed convergence PSO},
+  booktitle = {Swarm Intelligence Symposium},
+  year      = {2003},
+}
+
+@InProceedings{Leboucher2018An,
+  author    = {Leboucher, Cédric and Siarry, Patrick and Ménec, Stéphane Le and Shin, Hyo Sang and Chelouah, Rachid and Tsourdos, Antonios},
+  title     = {An Enhanced Particle Swarm Optimisation Algorithm Combined with Neural Networks to Decrease Computational Time},
+  booktitle = {International Conference on Swarm Intelligence Based Optimization Icsibo},
+  year      = {2018},
+}
+
+@InProceedings{Yan2008Particle,
+  author    = {Yan, Yunyi and Guo, Baolong},
+  title     = {Particle Swarm Optimization inspired by r- and K-Selection in ecology},
+  booktitle = {Evolutionary Computation},
+  year      = {2008},
+}
+
+@Article{Gong2017Genetic,
+  author  = {Gong, Y. J. and Li, J. J. and Zhou, Y. and Li, Y. and Chung, H. S. and Shi, Y. H. and Zhang, J.},
+  title   = {Genetic Learning Particle Swarm Optimization},
+  journal = {IEEE Transactions on Cybernetics},
+  year    = {2017},
+  volume  = {46},
+  number  = {10},
+  pages   = {2277-2290},
+}
+
+@InProceedings{Xin2009A,
+  author    = {Xin, Jianbin and Chen, Guimin and Hai, Yubao},
+  title     = {A Particle Swarm Optimizer with Multi-stage Linearly-Decreasing Inertia Weight},
+  booktitle = {International Joint Conference on Computational Sciences \& Optimization},
+  year      = {2009},
+}
+
+@Article{QU2012Differential,
+  author  = {QU and B., Y and SUGANTHAN and P., N and LIANG and J., J},
+  title   = {Differential Evolution with Neighborhood Mutation for Multimodal Optimization},
+  journal = {IEEE Transactions on Evolutionary Computation},
+  year    = {2012},
+  volume  = {16},
+  number  = {5},
+  pages   = {601-614},
+}
+
+@Book{Ratnaweera2004Self,
+  title  = {Self-organizing hierarchical particle swarm optimizer with time-varying acceleration coefficients},
+  year   = {2004},
+  author = {Ratnaweera, Asanga and Halgamuge, Saman K and Watson, Harry C},
+}
+
+@Article{Sahu2012Fast,
+  author  = {Sahu, Amaresh and Panigrahi, Sushanta Kumar and Pattnaik, Sabyasachi and Protcy, J. and Weight, Adaptive and Factor, Constriction and Dimension, Particle Mean},
+  title   = {Fast Convergence Particle Swarm Optimization for Functions Optimization},
+  journal = {Procedia Technology},
+  year    = {2012},
+  volume  = {4},
+  number  = {11},
+  pages   = {319-324},
+}
+
+@InProceedings{Bui2007A,
+  author    = {Bui, Lam T. and Soliman, Omar and Abbass, Hussein A.},
+  title     = {A Modified Strategy for the Constriction Factor in Particle Swarm Optimization},
+  booktitle = {Australian Conference on Progress in Artificial Life},
+  year      = {2007},
+}
+
+@Book{Clerc2002The,
+  title  = {The particle swarm - explosion, stability, and convergence in a multidimensional complex space},
+  year   = {2002},
+  author = {Clerc, M. and Kennedy, J.},
+}
+
+@InProceedings{Clerc2002The,
+  author    = {Clerc, M.},
+  title     = {The swarm and the queen: towards a deterministic and adaptive particle swarm optimization},
+  booktitle = {Congress on Evolutionary Computation},
+  year      = {2002},
+}
+
+@Book{Clerc2004Discrete,
+  title  = {Discrete Particle Swarm Optimization, illustrated by the Traveling Salesman Problem},
+  year   = {2004},
+  author = {Clerc, Maurice},
+}
+
+@Article{Kennedy2008Social,
+  author  = {Kennedy, James},
+  title   = {Social Interaction is a Powerful Optimiser: The Particle Swarm},
+  journal = {IEEE},
+  year    = {2008},
+  pages   = {9 - 10},
+}
+
+@Article{Campana2010Dynamic,
+  author  = {Campana, Emilio F. and Fasano, Giovanni and Pinto, Antonio},
+  title   = {Dynamic analysis for the selection of parameters and initial population, in particle swarm optimization},
+  journal = {Journal of Global Optimization},
+  year    = {2010},
+  volume  = {48},
+  number  = {3},
+  pages   = {347-397},
+}
+
+@Article{Wu2011Optimization,
+  author  = {Wu, Meiping and Wu, Yuanxin and Hu, Xiaoping and Hu, Dewen},
+  title   = {Optimization-based alignment for inertial navigation systems: Theory and algorithm ☆},
+  journal = {Aerospace Science \& Technology},
+  year    = {2011},
+  volume  = {15},
+  number  = {1},
+  pages   = {1-17},
+}
+
+@Article{Gunn2012A,
+  author  = {Gunn, Steven J.},
+  title   = {A Hybrid Particle Swarm Optimization (PSO)-Simplex Algorithm for Damage Identification of Delaminated Beams},
+  journal = {Mathematical Problems in Engineering,2012,(2012-11-7)},
+  year    = {2012},
+  volume  = {2012},
+  number  = {2012},
+  pages   = {1239-1257},
+}
+
+@InProceedings{Angeline2002Using,
+  author    = {Angeline, P. J.},
+  title     = {Using selection to improve particle swarm optimization},
+  booktitle = {IEEE World Congress on IEEE International Conference on Evolutionary Computation},
+  year      = {2002},
+}
+
+@InProceedings{Yang2006A,
+  author    = {Yang, Guangyou and Chen, Dingfang and Zhou, Guozhu},
+  title     = {A New Hybrid Algorithm of Particle Swarm Optimization},
+  booktitle = {International Conference on Computational Intelligence \& Bioinformatics},
+  year      = {2006},
+}
+
+@InProceedings{Angeline1998Evolutionary,
+  author    = {Angeline, Peter J.},
+  title     = {Evolutionary Optimization Versus Particle Swarm Optimization: Philosophy and Performance Differences},
+  booktitle = {International Conference on Evolutionary Programming VII},
+  year      = {1998},
+}
+
+@Book{Krink2002The,
+  title  = {The LifeCycle Model: Combining Particle Swarm Optimisation, Genetic Algorithms and HillClimbers},
+  year   = {2002},
+  author = {Krink, Thiemo and L?Vbjerg, Morten},
+}
+
+@InProceedings{Higashi2013Particle,
+  author    = {Higashi, N and Iba, H},
+  title     = {Particle swarm optimization with Gaussian mutation},
+  booktitle = {Swarm Intelligence Symposium},
+  year      = {2013},
+}
+
+@Article{Wang2008Particle,
+  author  = {Wang, Junwei and Wang, Dingwei},
+  title   = {Particle swarm optimization with a leader and followers},
+  journal = {Progress in Natural Science Materials International},
+  year    = {2008},
+  volume  = {18},
+  number  = {11},
+  pages   = {1437-1443},
+}
+
+@InProceedings{El2002Enhancing,
+  author    = {El-Gallad, A. and El-Hawary, M. and Sallam, A. and Kalas, A.},
+  title     = {Enhancing the particle swarm optimizer via proper parameters selection},
+  booktitle = {IEEE Ccece Canadian Conference on Electrical \& Computer Engineering},
+  year      = {2002},
+}
+
+@Article{Wang2009Ranked,
+  author  = {Wang, D. and Kwok, N. M. and Liu, D. K. and Ha, Q. P.},
+  title   = {Ranked Pareto Particle Swarm Optimization for Mobile Robot Motion Planning},
+  journal = {Design \& Control of Intelligent Robotic Systems},
+  year    = {2009},
+  volume  = {177},
+  pages   = {97-118},
+}
+
+@Article{Lei2008A,
+  author  = {Lei, Deming},
+  title   = {A Pareto archive particle swarm optimization for multi-objective job shop scheduling},
+  journal = {Computers \& Industrial Engineering},
+  year    = {2008},
+  volume  = {54},
+  number  = {4},
+  pages   = {960-971},
+}
+
+@Article{Parsopoulos2002Recent,
+  author  = {Parsopoulos, K. E. and Vrahatis, M. N.},
+  title   = {Recent approaches to global optimization problems through Particle Swarm Optimization},
+  journal = {Natural Computing},
+  year    = {2002},
+  volume  = {1},
+  number  = {2-3},
+  pages   = {235-306},
+}
+
+@Book{Parsopoulos2001Improving,
+  title  = {Improving the Particle Swarm Optimizer by Function “Stretching”},
+  year   = {2001},
+  author = {Parsopoulos, K. E and Plagianakos, V. P and Magoulas, G. D and Vrahatis, M. N},
+}
+
+@InProceedings{Han2000Mining,
+  author = {Han, Jiawei and Jian, Pei and Yin, Yiwen},
+  title  = {Mining frequent patterns without candidate generation},
+  year   = {2000},
+}
+
+@Article{Nickabadi2011A,
+  author  = {Nickabadi, Ahmad and Ebadzadeh, Mohammad Mehdi and Safabakhsh, Reza},
+  title   = {A novel particle swarm optimization algorithm with adaptive inertia weight},
+  journal = {Applied Soft Computing Journal},
+  year    = {2011},
+  volume  = {11},
+  number  = {4},
+  pages   = {3658-3670},
+}
+
+@Article{Kennedy2002A,
+  author  = {Kennedy J , Eberhart R C.},
+  title   = {A discrete binary version of the particle swarm algorithm.},
+  journal = {IEEE},
+  year    = {2002},
+}
+
+@InProceedings{Bui2007A,
+  author    = {Bui, Lam T. and Soliman, Omar and Abbass, Hussein A.},
+  title     = {A Modified Strategy for the Constriction Factor in Particle Swarm Optimization},
+  booktitle = {Australian Conference on Progress in Artificial Life},
+  year      = {2007},
+}
+
+@InProceedings{Wu2009An,
+  author    = {Wu, Xiaojun and Ying, Wang and Zhang, Tiantian},
+  title     = {An Improved GAPSO Hybrid Programming Algorithm},
+  booktitle = {International Conference on Information Engineering \& Computer Science},
+  year      = {2009},
+}
+
+@Article{李会荣2007一种非线性递减惯性权重策略的粒子群优化算法,
+  author  = {李会荣 and 高岳林 and 李济民},
+  title   = {一种非线性递减惯性权重策略的粒子群优化算法},
+  journal = {商洛学院学报},
+  year    = {2007},
+  volume  = {21},
+  number  = {4},
+  pages   = {16-20},
+}
+
+@Article{Hu2002Solving,
+  author  = {Hu, X., Eberhart, R.C.},
+  title   = {Solving constrained nonlinear optimization problems with particle swarm optimization},
+  journal = {The 6th world multiconference on systemics,cybernetics and informatics},
+  year    = {2002},
+}
+
+@Article{Lei2008A,
+  author  = {Lei, Deming},
+  title   = {A Pareto archive particle swarm optimization for multi-objective job shop scheduling},
+  journal = {Computers \& Industrial Engineering},
+  year    = {2008},
+  volume  = {54},
+  number  = {4},
+  pages   = {960-971},
+}
+
+@Article{Zhao2013A,
+  author  = {Zhigang Zhao},
+  title   = {A simple particle swarm optimization algorithm based on stochastic intertia weight},
+  journal = {Computer Application Research},
+  year    = {2013},
+}
+
+@Article{Fei2013An,
+  author  = {Fei Han},
+  title   = {An improved particle swarm optimization algorithm based on gradient search is proposed},
+  journal = {Journal of Nanjing University},
+  year    = {2013},
+}
+
+@Article{Junwei2006Improved,
+  author = {Junwei Wang},
+  title  = {Improved and application of particle swarm optimization algorithm},
+  year   = {2006},
+}
+
+@Article{Jianghong2006A,
+  author = {Jianghong Han},
+  title  = {A adaptive particle swarm optimization and its simulation study.},
+  year   = {2006},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

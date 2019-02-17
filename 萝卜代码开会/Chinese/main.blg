@@ -1,3 +1,24 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: unsrt.bst
 Database file #1: essay/ref.bib
+Repeated entry---line 169 of file essay/ref.bib
+ : @inproceedings{Clerc2002The
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 329 of file essay/ref.bib
+ : @inproceedings{Bui2007A
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 360 of file essay/ref.bib
+ : @article{Lei2008A
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Han2000Mining
+Warning--empty journal in Jianghong2006A
+Warning--empty publisher in Ratnaweera2004Self
+Warning--empty publisher in Clerc2002The
+Too many commas in name 1 of "Hu, X., Eberhart, R.C." for entry Hu2002Solving
+while executing---line 944 of file unsrt.bst
+Warning--empty journal in Junwei2006Improved
+Warning--empty publisher in Parsopoulos2001Improving
+(There were 4 error messages)

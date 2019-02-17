@@ -1,16 +1,203 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{Figueredo:2009dg}
-A.~J. Figueredo and P.~S.~A. Wolf.
-\newblock Assortative pairing and life history strategy - a cross-cultural
-  study.
-\newblock {\em Human Nature}, 20:317--330, 2009.
+\bibitem{Eberhart2002A}
+R.~Eberhart and J.~Kennedy.
+\newblock A new optimizer using particle swarm theory.
+\newblock In {\em Mhs95 Sixth International Symposium on Micro Machine \& Human
+  Science}, 2002.
 
-\bibitem{bollag2010clinical}
-Gideon Bollag, Peter Hirth, James Tsai, Jiazhong Zhang, Prabha~N Ibrahim, Hanna
-  Cho, Wayne Spevak, Chao Zhang, Ying Zhang, Gaston Habets, et~al.
-\newblock Clinical efficacy of a raf inhibitor needs broad target blockade in
-  braf-mutant melanoma.
-\newblock {\em Nature}, 467(7315):596--599, 2010.
+\bibitem{Eberhart2002Particle}
+Russell~C Eberhart and Yuhui Shi.
+\newblock Particle swarm optimization: developments, applications and
+  resources.
+\newblock In {\em Congress on Evolutionary Computation}, 2002.
+
+\bibitem{Han2000Mining}
+Jiawei Han, Pei Jian, and Yiwen Yin.
+\newblock Mining frequent patterns without candidate generation.
+\newblock 2000.
+
+\bibitem{Shi1998A}
+Y.~H. Shi and R.~C. Eberhart.
+\newblock A modified particle swarm optimizer.
+\newblock In {\em Evolutionary Computation Proceedings, 1998. IEEE World
+  Congress on Computational Intelligence., The 1998 IEEE International
+  Conference on}, 1998.
+
+\bibitem{Yanxia2002Chaotic}
+Yanxia, Qi, Guoyuan, Wang, Zenghui, Van Wyk, Barend Jacobus, Hamam, and
+  Yskandar.
+\newblock Chaotic particle swarm optimization.
+\newblock In {\em Congress on Evolutionary Computation}, 2002.
+
+\bibitem{Bui2007A}
+Lam~T. Bui, Omar Soliman, and Hussein~A. Abbass.
+\newblock A modified strategy for the constriction factor in particle swarm
+  optimization.
+\newblock In {\em Australian Conference on Progress in Artificial Life}, 2007.
+
+\bibitem{Kennedy2002A}
+Eberhart R~C. Kennedy~J.
+\newblock A discrete binary version of the particle swarm algorithm.
+\newblock {\em IEEE}, 2002.
+
+\bibitem{Wu2009An}
+Xiaojun Wu, Wang Ying, and Tiantian Zhang.
+\newblock An improved gapso hybrid programming algorithm.
+\newblock In {\em International Conference on Information Engineering \&
+  Computer Science}, 2009.
+
+\bibitem{Fei2013An}
+Fei Han.
+\newblock An improved particle swarm optimization algorithm based on gradient
+  search is proposed.
+\newblock {\em Journal of Nanjing University}, 2013.
+
+\bibitem{Leboucher2018An}
+Cédric Leboucher, Patrick Siarry, Stéphane~Le Ménec, Hyo~Sang Shin, Rachid
+  Chelouah, and Antonios Tsourdos.
+\newblock An enhanced particle swarm optimisation algorithm combined with
+  neural networks to decrease computational time.
+\newblock In {\em International Conference on Swarm Intelligence Based
+  Optimization Icsibo}, 2018.
+
+\bibitem{Gong2017Genetic}
+Y.~J. Gong, J.~J. Li, Y.~Zhou, Y.~Li, H.~S. Chung, Y.~H. Shi, and J.~Zhang.
+\newblock Genetic learning particle swarm optimization.
+\newblock {\em IEEE Transactions on Cybernetics}, 46(10):2277--2290, 2017.
+
+\bibitem{Lei2008A}
+Deming Lei.
+\newblock A pareto archive particle swarm optimization for multi-objective job
+  shop scheduling.
+\newblock {\em Computers \& Industrial Engineering}, 54(4):960--971, 2008.
+
+\bibitem{Nickabadi2011A}
+Ahmad Nickabadi, Mohammad~Mehdi Ebadzadeh, and Reza Safabakhsh.
+\newblock A novel particle swarm optimization algorithm with adaptive inertia
+  weight.
+\newblock {\em Applied Soft Computing Journal}, 11(4):3658--3670, 2011.
+
+\bibitem{Jianghong2006A}
+Jianghong Han.
+\newblock A adaptive particle swarm optimization and its simulation study.
+\newblock 2006.
+
+\bibitem{Zhao2013A}
+Zhigang Zhao.
+\newblock A simple particle swarm optimization algorithm based on stochastic
+  intertia weight.
+\newblock {\em Computer Application Research}, 2013.
+
+\bibitem{Xin2009A}
+Jianbin Xin, Guimin Chen, and Yubao Hai.
+\newblock A particle swarm optimizer with multi-stage linearly-decreasing
+  inertia weight.
+\newblock In {\em International Joint Conference on Computational Sciences \&
+  Optimization}, 2009.
+
+\bibitem{Peer2003Using}
+E.~S. Peer, F.~Van~Den Bergh, and A.~P. Engelbrecht.
+\newblock Using neighbourhoods with the guaranteed convergence pso.
+\newblock In {\em Swarm Intelligence Symposium}, 2003.
+
+\bibitem{Ratnaweera2004Self}
+Asanga Ratnaweera, Saman~K Halgamuge, and Harry~C Watson.
+\newblock {\em Self-organizing hierarchical particle swarm optimizer with
+  time-varying acceleration coefficients}.
+\newblock 2004.
+
+\bibitem{Clerc2002The}
+M.~Clerc and J.~Kennedy.
+\newblock {\em The particle swarm - explosion, stability, and convergence in a
+  multidimensional complex space}.
+\newblock 2002.
+
+\bibitem{Hu2002Solving}
+Eberhart~R.C. Hu, X.
+\newblock Solving constrained nonlinear optimization problems with particle
+  swarm optimization.
+\newblock {\em The 6th world multiconference on systemics,cybernetics and
+  informatics}, 2002.
+
+\bibitem{Angeline2002Using}
+P.~J. Angeline.
+\newblock Using selection to improve particle swarm optimization.
+\newblock In {\em IEEE World Congress on IEEE International Conference on
+  Evolutionary Computation}, 2002.
+
+\bibitem{Higashi2013Particle}
+N~Higashi and H~Iba.
+\newblock Particle swarm optimization with gaussian mutation.
+\newblock In {\em Swarm Intelligence Symposium}, 2013.
+
+\bibitem{Sahu2012Fast}
+Amaresh Sahu, Sushanta~Kumar Panigrahi, Sabyasachi Pattnaik, J.~Protcy,
+  Adaptive Weight, Constriction Factor, and Particle~Mean Dimension.
+\newblock Fast convergence particle swarm optimization for functions
+  optimization.
+\newblock {\em Procedia Technology}, 4(11):319--324, 2012.
+
+\bibitem{Junwei2006Improved}
+Junwei Wang.
+\newblock Improved and application of particle swarm optimization algorithm.
+\newblock 2006.
+
+\bibitem{Parsopoulos2001Improving}
+K.~E Parsopoulos, V.~P Plagianakos, G.~D Magoulas, and M.~N Vrahatis.
+\newblock {\em Improving the Particle Swarm Optimizer by Function
+  “Stretching”}.
+\newblock 2001.
+
+\bibitem{Parsopoulos2002Recent}
+K.~E. Parsopoulos and M.~N. Vrahatis.
+\newblock Recent approaches to global optimization problems through particle
+  swarm optimization.
+\newblock {\em Natural Computing}, 1(2-3):235--306, 2002.
+
+\bibitem{El2002Enhancing}
+A.~El-Gallad, M.~El-Hawary, A.~Sallam, and A.~Kalas.
+\newblock Enhancing the particle swarm optimizer via proper parameters
+  selection.
+\newblock In {\em IEEE Ccece Canadian Conference on Electrical \& Computer
+  Engineering}, 2002.
+
+\bibitem{Campana2010Dynamic}
+Emilio~F. Campana, Giovanni Fasano, and Antonio Pinto.
+\newblock Dynamic analysis for the selection of parameters and initial
+  population, in particle swarm optimization.
+\newblock {\em Journal of Global Optimization}, 48(3):347--397, 2010.
+
+\bibitem{QU2012Differential}
+QU, Y~B., SUGANTHAN, N~P., LIANG, and J~J.
+\newblock Differential evolution with neighborhood mutation for multimodal
+  optimization.
+\newblock {\em IEEE Transactions on Evolutionary Computation}, 16(5):601--614,
+  2012.
+
+\bibitem{Kennedy2003Bare}
+James Kennedy.
+\newblock Bare bones particle swarms.
+\newblock In {\em Swarm Intelligence Symposium}, 2003.
+
+\bibitem{Campos2013Hierarchical}
+Mauro Campos and Renato~A. Krohling.
+\newblock Hierarchical bare bones particle swarm for solving constrained
+  optimization problems.
+\newblock In {\em Evolutionary Computation}, 2013.
+
+\bibitem{Gunn2012A}
+Steven~J. Gunn.
+\newblock A hybrid particle swarm optimization (pso)-simplex algorithm for
+  damage identification of delaminated beams.
+\newblock {\em Mathematical Problems in Engineering,2012,(2012-11-7)},
+  2012(2012):1239--1257, 2012.
+
+\bibitem{Huang2006Comprehensive}
+V.~L. Huang, P.~N. Suganthan, and J.~J. Liang.
+\newblock Comprehensive learning particle swarm optimizer for solving
+  multiobjective optimization problems.
+\newblock {\em International Journal of Intelligent Systems}, 21(2):209--226,
+  2006.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.15)  16 FEB 2019 00:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.15)  17 FEB 2019 17:14
 entering extended mode
 **./main.tex
 (main.tex
@@ -718,15 +718,74 @@ and DVIPDFMx (CTEX)
 de.sfd}))))
 (E:\MiKTeX\tex/latex/ctex/config\ctex.cfg
 File: ctex.cfg 2018/05/02 v2.4.14 Configuration file (CTEX)
-) (E:\MiKTeX\tex/latex/tools\array.sty
+)
+(E:\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count286
+\algocf@hangindent=\skip73
+
+(E:\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count287
+)
+(E:\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (E:\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip74
+\skiplinenumber=\skip75
+\skiprule=\skip76
+\skiphlne=\skip77
+\skiptext=\skip78
+\skiplength=\skip79
+\algomargin=\skip80
+\skipalgocfslide=\skip81
+\algowidth=\dimen193
+\inoutsize=\dimen194
+\inoutindent=\dimen195
+\interspacetitleruled=\dimen196
+\interspacealgoruled=\dimen197
+\interspacetitleboxruled=\dimen198
+\algocf@ruledwidth=\skip82
+\algocf@inoutbox=\box56
+\algocf@inputbox=\box57
+\AlCapSkip=\skip83
+\AlCapHSkip=\skip84
+\algoskipindent=\skip85
+\algocf@nlbox=\box58
+\algocf@hangingbox=\box59
+\algocf@untilbox=\box60
+\algocf@skipuntil=\skip86
+\algocf@capbox=\box61
+\algocf@lcaptionbox=\skip87
+\algoheightruledefault=\skip88
+\algoheightrule=\skip89
+\algotitleheightruledefault=\skip90
+\algotitleheightrule=\skip91
+\c@algocfline=\count288
+\c@algocfproc=\count289
+\c@algocf=\count290
+\algocf@algoframe=\box62
+\algocf@algobox=\box63
+) (E:\MiKTeX\tex/latex/algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count291
+\c@ALC@line=\count292
+\c@ALC@rem=\count293
+\c@ALC@depth=\count294
+\ALC@tlm=\skip92
+\algorithmicindent=\skip93
+)
+(E:\MiKTeX\tex/latex/tools\array.sty
 Package: array 2018/11/13 v2.4j Tabular extension package (FMi)
-\col@sep=\dimen193
-\ar@mcellbox=\box56
-\extrarowheight=\dimen194
+\col@sep=\dimen199
+\ar@mcellbox=\box64
+\extrarowheight=\dimen256
 \NC@list=\toks27
-\extratabsurround=\skip73
-\backup@length=\skip74
-\ar@cellbox=\box57
+\extratabsurround=\skip94
+\backup@length=\skip95
+\ar@cellbox=\box65
 ) (E:\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2018/11/13 3.27 The Babel package
 
@@ -745,11 +804,11 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 (E:\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2018/11/13 3.27 Babel common definitions
-\babel@savecnt=\count286
-\U@D=\dimen195
+\babel@savecnt=\count295
+\U@D=\dimen257
 
 (E:\MiKTeX\tex/generic/babel\txtbabel.def)
-\bbl@dirlevel=\count287
+\bbl@dirlevel=\count296
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -851,53 +910,57 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (E:\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip75
-\subfigcapskip=\skip76
-\subfigcaptopadj=\dimen196
-\subfigbottomskip=\skip77
-\subfigcapmargin=\dimen197
-\subfiglabelskip=\skip78
-\c@subfigure=\count288
-\c@lofdepth=\count289
-\c@subtable=\count290
-\c@lotdepth=\count291
+\subfigtopskip=\skip96
+\subfigcapskip=\skip97
+\subfigcaptopadj=\dimen258
+\subfigbottomskip=\skip98
+\subfigcapmargin=\dimen259
+\subfiglabelskip=\skip99
+\c@subfigure=\count297
+\c@lofdepth=\count298
+\c@subtable=\count299
+\c@lotdepth=\count300
 
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
 (E:\MiKTeX\tex/latex/subfigure\subfigure.cfg)
-\subfig@top=\skip79
-\subfig@bottom=\skip80
+\subfig@top=\skip100
+\subfig@bottom=\skip101
 )
 (E:\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count292
+\c@float@type=\count301
 \float@exts=\toks28
-\float@box=\box58
+\float@box=\box66
 \@float@everytoks=\toks29
-\@floatcapt=\box59
+\@floatcapt=\box67
 ) (E:\MiKTeX\tex/latex/sttools\flushend.sty
 Package: flushend 2017/03/27 v3.3 Balancing columns in twocolumn mode
-\flushend@@lastskip@a=\skip81
-\flushend@@lastskip@b=\skip82
-\flushend@@lastskip@c=\skip83
-\flushend@@penalty@a=\count293
-\flushend@@lastkern@a=\dimen198
-\var@@temp@spread=\dimen199
-\var@@temp@a=\dimen256
-\flushend@@page@rule=\dimen257
-\flushend@@varbox@a=\box60
-\flushend@@varbox@c=\box61
-\flushend@@tempbox@a=\box62
-\flushend@@tempbox@c=\box63
-\@viper=\box64
-\hold@viper=\box65
+\flushend@@lastskip@a=\skip102
+\flushend@@lastskip@b=\skip103
+\flushend@@lastskip@c=\skip104
+\flushend@@penalty@a=\count302
+\flushend@@lastkern@a=\dimen260
+\var@@temp@spread=\dimen261
+\var@@temp@a=\dimen262
+\flushend@@page@rule=\dimen263
+\flushend@@varbox@a=\box68
+\flushend@@varbox@c=\box69
+\flushend@@tempbox@a=\box70
+\flushend@@tempbox@c=\box71
+\@viper=\box72
+\hold@viper=\box73
 \atColsBreak=\toks30
 \atColsEnd=\toks31
 (E:\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count294
-))
+\etb@tempcnta=\count303
+)) (E:\MiKTeX\tex/latex/cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: 
 * paper: letterpaper
@@ -930,8 +993,7 @@ Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-(E:\MiKTeX\tex/latex/hyperref\hyperref.sty
+ (E:\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
 (E:\MiKTeX\tex/generic/oberdiek\hobsub-hyperref.sty
@@ -978,16 +1040,16 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (E:\MiKTeX\tex/latex/oberdiek\kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen258
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
+\@linkdim=\dimen264
+\Hy@linkcounter=\count304
+\Hy@pagecounter=\count305
 
 (E:\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count297
+\Hy@SavedSpaceFactor=\count306
 
 (E:\MiKTeX\tex/latex/00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1006,16 +1068,16 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count298
+\c@Hy@tempcnt=\count307
  (E:\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen259
-\Fld@menulength=\count299
-\Field@Width=\dimen260
-\Fld@charsize=\dimen261
+\XeTeXLinkMargin=\dimen265
+\Fld@menulength=\count308
+\Field@Width=\dimen266
+\Fld@charsize=\dimen267
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -1025,27 +1087,27 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Hy@abspage=\count309
+\c@Item=\count310
+\c@Hfootnote=\count311
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (E:\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count303
-\c@bookmark@seq@number=\count304
+\Fld@listcount=\count312
+\c@bookmark@seq@number=\count313
 
 (E:\MiKTeX\tex/latex/oberdiek\rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip84
+\Hy@SectionHShift=\skip105
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 54.
-Package hyperref Info: Option `breaklinks' set `true' on input line 54.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 54.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
+Package hyperref Info: Option `breaklinks' set `true' on input line 61.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 61.
  (essay/info.tex)
 (E:\MiKTeX\tex/latex/cjk/UTF8\UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
@@ -1055,123 +1117,108 @@ File: UTF8.enc 2015/04/18 4.8.4
 File: UTF8.chr 2015/04/18 4.8.4
 ) (main.aux
 
-LaTeX Warning: Label `tab:addlabel' multiply defined.
+LaTeX Warning: Label `figfunction' multiply defined.
 
 
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
-
-
-LaTeX Warning: Label `tab:addlabel' multiply defined.
+LaTeX Warning: Label `figfunction' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
  (E:\MiKTeX\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen262
-\scratchbox=\box66
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\scratchcounter=\count314
+\scratchdimen=\dimen268
+\scratchbox=\box74
+\nofMPsegments=\count315
+\nofMParguments=\count316
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen263
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count317
+\MPscratchDim=\dimen269
+\MPnumerator=\count318
+\makeMPintoPDFobject=\count319
 \everyMPtoPDFconversion=\toks33
 ) (E:\MiKTeX\tex/latex/oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1227,8 +1274,8 @@ Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 71.
-LaTeX Info: Redefining \microtypecontext on input line 71.
+(lastpage)             ! on input line 78.
+LaTeX Info: Redefining \microtypecontext on input line 78.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1243,9 +1290,9 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 71.
-\AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring ON on input line 71.
+LaTeX Info: Redefining \selectfont on input line 78.
+\AtBeginShipoutBox=\box75
+Package hyperref Info: Link coloring ON on input line 78.
 
 (E:\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1253,11 +1300,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (E:\MiKTeX\tex/generic/oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count320
 )
-LaTeX Info: Redefining \ref on input line 71.
-LaTeX Info: Redefining \pageref on input line 71.
-LaTeX Info: Redefining \nameref on input line 71.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -1266,13 +1313,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for C70+zhhei on input line 76
+LaTeX Font Info:    Try loading font information for C70+zhhei on input line 84
 .
 
 (E:\MiKTeX\tex/latex/zhmetrics\c70zhhei.fd
 File: c70zhhei.fd 2009/09/23 4.8.2
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+LaTeX Font Info:    Try loading font information for U+msa on input line 84.
 
 (E:\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1280,7 +1327,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (E:\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+LaTeX Font Info:    Try loading font information for U+msb on input line 84.
 
 (E:\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1289,7 +1336,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 Package CJKpunct Info: use punctuation spaces for family 'zhhei' with punctstyl
-e (quanjiao) on input line 76.
+e (quanjiao) on input line 84.
 
 
 ! LaTeX Error: There's no line here to end.
@@ -1298,7 +1345,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 
+l.84 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1306,7 +1353,7 @@ or  <return>  to continue without it.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <8> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 76.
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 84.
 
 (essay/text.tex
 LaTeX Font Info:    Try loading font information for C70+rm on input line 4.
@@ -1319,16 +1366,7 @@ quanjiao) on input line 4.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 27--28
-[]\C70/rm/m/n/10/4e  \C70/rm/m/n/10/51 v \C70/rm/m/n/10/4e Ö \C70/rm/m/n/10/4f
-  \C70/rm/m/n/10/53  \C70/rm/m/n/10/7b — \C70/rm/m/n/10/6c Õ \C70/rm/m/n/10/4
-e   \C70/rm/m/n/10/68 7|\C70/rm/m/n/10/ff | \C70/rm/m/n/10/7c ’ \C70/rm/m/n/10
-/5b P \C70/rm/m/n/10/7f ¤ \C70/rm/m/n/10/7b — \C70/rm/m/n/10/6c Õ \C70/rm/m/n/1
-0/4e _ \C70/rm/m/n/10/5b X
- []
-
-
-Underfull \vbox (badness 3601) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (E:\MiKTeX\tex/generic/ctex\zhwindowsfonts.tex
@@ -1338,47 +1376,114 @@ and DVIPDFMx (CTEX)
 
 
 
-] [2]
-Underfull \hbox (badness 3271) in paragraph at lines 78--79
+]
+Underfull \hbox (badness 2875) in paragraph at lines 11--12
+[]\C70/rm/m/n/10/4e  \C70/rm/m/n/10/51 v \C70/rm/m/n/10/4e Ö \C70/rm/m/n/10/4f
+  \C70/rm/m/n/10/53  \C70/rm/m/n/10/7b — \C70/rm/m/n/10/6c Õ \C70/rm/m/n/10/4
+e   \C70/rm/m/n/10/68 7|\C70/rm/m/n/10/ff | \C70/rm/m/n/10/7c ’ \C70/rm/m/n/10
+/5b P \C70/rm/m/n/10/7f ¤ \C70/rm/m/n/10/7b — \C70/rm/m/n/10/6c Õ \C70/rm/m/n/1
+0/4e _ \C70/rm/m/n/10/5b X
+ []
+
+[2]
+Underfull \hbox (badness 3271) in paragraph at lines 61--62
 []\C70/rm/m/n/10/4e ¤ \C70/rm/m/n/10/90  \C70/rm/m/n/10/8f Ð “ \C70/rm/m/n/10/
 98 † \C70/rm/m/n/10/57 ß|\C70/rm/m/n/10/30 | \C70/rm/m/n/10/8f f † \C70/rm/m/n
 /10/8d ï \C70/rm/m/n/10/5f „ \C70/rm/m/n/10/4f  \C70/rm/m/n/10/53  \C70/rm/m/
 n/10/95 î \C70/rm/m/n/10/98 ˜|\C70/rm/m/n/10/30 | \C70/rm/m/n/10/72 i
  []
 
+<pic/Base_PSO.png, id=444, 493.34312pt x 370.38374pt>
+File: pic/Base_PSO.png Graphic file (type png)
+<use pic/Base_PSO.png>
+Package pdftex.def Info: pic/Base_PSO.png  used on input line 92.
+(pdftex.def)             Requested size: 179.8221pt x 135.00525pt.
+[3 <./pic/Base_PSO.png>]
 
-Underfull \hbox (badness 1152) in paragraph at lines 92--93
-\C70/rm/m/n/10/72 H \C70/rm/m/n/10/67 ,|\C70/rm/m/n/10/30 | \C70/rm/m/n/10/4e 
-  * \C70/rm/m/n/10/75 1\OT1/cmr/m/n/10 (+20) m\C70/rm/m/n/10/4e * \C70/rm/m/n/1
-0/7c ’ \C70/rm/m/n/10/5b P |\C70/rm/m/n/10/ff |\OT1/cmr/m/n/10 (+20) Particle|
-\C70/rm/m/n/10/ff 	| \C70/rm/m/n/10/7e Ä \C70/rm/m/n/10/62  \C70/rm/m/n/10/76 
-„ \C70/rm/m/n/10/7f ¤ \C70/rm/m/n/10/4f S
+! LaTeX Error: [H] in two columns mode is not allowed for algorithms.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \begin{algorithm}[H]
+                          
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+<pic/PSO_flow.png, id=461, 659.46375pt x 599.23875pt>
+File: pic/PSO_flow.png Graphic file (type png)
+<use pic/PSO_flow.png>
+Package pdftex.def Info: pic/PSO_flow.png  used on input line 172.
+(pdftex.def)             Requested size: 224.77678pt x 204.25052pt.
+[4 <./pic/PSO_flow.png>] [5]
+Overfull \hbox (9.36435pt too wide) detected at line 266
+[]
  []
 
-[3] [4] [5] [6]
-Underfull \hbox (badness 3568) in paragraph at lines 272--273
+
+Overfull \hbox (20.00003pt too wide) detected at line 266
+[][]
+ []
+
+[6]
+<pic/Circle.png, id=565, 318.18875pt x 319.1925pt>
+File: pic/Circle.png Graphic file (type png)
+<use pic/Circle.png>
+Package pdftex.def Info: pic/Circle.png  used on input line 294.
+(pdftex.def)             Requested size: 103.39882pt x 103.72171pt.
+<pic/Circle2.png, id=566, 318.18875pt x 319.1925pt>
+File: pic/Circle2.png Graphic file (type png)
+<use pic/Circle2.png>
+Package pdftex.def Info: pic/Circle2.png  used on input line 298.
+(pdftex.def)             Requested size: 103.39882pt x 103.72171pt.
+<pic/Wheel.png, id=567, 187.19937pt x 180.675pt>
+File: pic/Wheel.png Graphic file (type png)
+<use pic/Wheel.png>
+Package pdftex.def Info: pic/Wheel.png  used on input line 326.
+(pdftex.def)             Requested size: 103.39882pt x 99.7961pt.
+<pic/Wheel2.png, id=568, 182.6825pt x 186.6975pt>
+File: pic/Wheel2.png Graphic file (type png)
+<use pic/Wheel2.png>
+Package pdftex.def Info: pic/Wheel2.png  used on input line 330.
+(pdftex.def)             Requested size: 103.39882pt x 105.67229pt.
+ [7 <./pic/Circle.png> <./pic/Circle2.png> <./pic/Wheel.png> <./pic/Wheel2.png>
+]
+Overfull \hbox (33.96288pt too wide) detected at line 391
+[]\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 c[] \OMS/cmsy/m/n/10
+   \OML/cmm/m/it/10 c[][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 c[]\OT1/cmr/m/n/10
+ )\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 c[] \OMS/cmsy/m/n/10
+   \OML/cmm/m/it/10 c[][] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 c[]\OT1/cmr/m/n/10
+ )
+ []
+
+
+Underfull \hbox (badness 3568) in paragraph at lines 393--393
 \C70/rm/m/n/10/52  \C70/rm/m/n/10/59 Ë \C70/rm/m/n/10/50 < \C70/rm/m/n/10/54 Œ
  \C70/rm/m/n/10/67   \C70/rm/m/n/10/7e È \C70/rm/m/n/10/89 ã|\C70/rm/m/n/10/30 
 | $[][]$\C70/rm/m/n/10/4e : \C70/rm/m/n/10/67   \C70/rm/m/n/10/59 ' \C70/rm/m/
 n/10/8f í \C70/rm/m/n/10/4e ã \C70/rm/m/n/10/6b !
  []
 
+[8]
 
-LaTeX Warning: Command \textgreater invalid in math mode on input line 317.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 437.
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 317.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 437.
 
 (E:\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 317.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 437.
 
 
-LaTeX Warning: Command \textgreater invalid in math mode on input line 317.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 437.
 
 
-Underfull \hbox (badness 7504) in paragraph at lines 317--318
+Underfull \hbox (badness 7504) in paragraph at lines 437--438
 []\C70/rm/m/n/10/53 æ \C70/rm/m/n/10/59 |\C70/rm/m/n/10/ff | \C70/rm/m/n/10/4
 e Œ \C70/rm/m/n/10/8f Û \C70/rm/m/n/10/52 6 \C70/rm/m/n/10/72 H \C70/rm/m/n/10/
 67 , \C70/rm/m/n/10/4e Í \C70/rm/m/n/10/71 6 \C70/rm/m/n/10/97   \C70/rm/m/n/10
@@ -1386,164 +1491,272 @@ e Œ \C70/rm/m/n/10/8f Û \C70/rm/m/n/10/52 6 \C70/rm/m/n/10/72 H \C70/rm/m/n/10/
 0/5e ¦
  []
 
-[7]
-Overfull \hbox (13.76375pt too wide) detected at line 350
+
+Underfull \hbox (badness 1968) in paragraph at lines 453--454
+[]\OT1/cmr/m/n/10 (+20) Angeline\C70/rm/m/n/10/5c  \C70/rm/m/n/10/81 ê \C70/rm
+/m/n/10/71 6 \C70/rm/m/n/10/90 	 \C70/rm/m/n/10/62 é \C70/rm/m/n/10/67 : \C70/r
+m/m/n/10/74  \C70/rm/m/n/10/4e  \C70/rm/m/n/10/7c ’ \C70/rm/m/n/10/5b P \C70/
+rm/m/n/10/7f ¤ \C70/rm/m/n/10/4f  \C70/rm/m/n/10/53  \C70/rm/m/n/10/7b —
+ []
+
+
+! LaTeX Error: [H] in two columns mode is not allowed for algorithms.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.461 \begin{algorithm}[H]
+                          
+(That was another \errmessage.)
+
+[9]
+Overfull \hbox (13.76375pt too wide) detected at line 489
 []
  []
 
-[8] [9] [10]
-! Undefined control sequence.
-<argument> ...-20e^{-0.2\sqrt {\frac {1}{n}*\sumx 
-                                                  _i^2}}$ \\$+e-e^{\frac {1}...
-l.567 ...\$+e-e^{\frac{1}{n}\sum cos(2\pi x_i)} $}
-                                                   & (-32,32) \\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+<pic/tiduPSO.png, id=638, 723.70375pt x 645.41125pt>
+File: pic/tiduPSO.png Graphic file (type png)
+<use pic/tiduPSO.png>
+Package pdftex.def Info: pic/tiduPSO.png  used on input line 529.
+(pdftex.def)             Requested size: 247.25583pt x 220.51038pt.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.568 ...{$f_2=\sum (x_i^2+10\\-10cos(2\pi x_i))$}
-                                                      & (-5.12,5.12) \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.568 ...{$f_2=\sum (x_i^2+10\\-10cos(2\pi x_i))$}
-                                                      & (-5.12,5.12) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.569 ...^2\\-\prod cos(\frac{x_i}{\sqrt{i}})+1 $}
-                                                      & (-600,600) \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.569 ...^2\\-\prod cos(\frac{x_i}{\sqrt{i}})+1 $}
-                                                      & (-600,600) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.572 ...sum [100(x_{i+1}-x_i^2)^2\\+(x_i-1)^2] $}
-                                                      & (-30,30) \\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.572 ...sum [100(x_{i+1}-x_i^2)^2\\+(x_i-1)^2] $}
-                                                      & (-30,30) \\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (25.42953pt too wide) in paragraph at lines 563--578
- [][][]
+Overfull \hbox (22.47905pt too wide) in paragraph at lines 529--530
+ [][] 
  []
 
 
-Package caption Warning: \label without proper reference on input line 588.
-See the caption package documentation for explanation.
+Underfull \vbox (badness 2799) has occurred while \output is active []
 
-
-LaTeX Warning: Reference `tab4' on page 11 undefined on input line 583.
-
-
-Overfull \hbox (10.3155pt too wide) in paragraph at lines 590--603
- [][][] 
+ [10 <./pic/tiduPSO.png>] [11]
+Overfull \hbox (5.32082pt too wide) in paragraph at lines 643--657
+ [][] 
  []
 
-[11]
+<pic/1Ackley32.png, id=687, 632.3625pt x 474.27188pt>
+File: pic/1Ackley32.png Graphic file (type png)
+<use pic/1Ackley32.png>
+Package pdftex.def Info: pic/1Ackley32.png  used on input line 665.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/1Ackley2.png, id=688, 632.3625pt x 474.27188pt>
+File: pic/1Ackley2.png Graphic file (type png)
+<use pic/1Ackley2.png>
+Package pdftex.def Info: pic/1Ackley2.png  used on input line 669.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/2Rastrigin2.png, id=689, 632.3625pt x 474.27188pt>
+File: pic/2Rastrigin2.png Graphic file (type png)
+<use pic/2Rastrigin2.png>
+Package pdftex.def Info: pic/2Rastrigin2.png  used on input line 673.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/2Rastrigin3.png, id=690, 632.3625pt x 474.27188pt>
+File: pic/2Rastrigin3.png Graphic file (type png)
+<use pic/2Rastrigin3.png>
+Package pdftex.def Info: pic/2Rastrigin3.png  used on input line 677.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/3Griewank600.png, id=691, 632.3625pt x 474.27188pt>
+File: pic/3Griewank600.png Graphic file (type png)
+<use pic/3Griewank600.png>
+Package pdftex.def Info: pic/3Griewank600.png  used on input line 681.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/3Griewank2.png, id=692, 632.3625pt x 474.27188pt>
+File: pic/3Griewank2.png Graphic file (type png)
+<use pic/3Griewank2.png>
+Package pdftex.def Info: pic/3Griewank2.png  used on input line 685.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/4Alpine2.png, id=693, 632.3625pt x 474.27188pt>
+File: pic/4Alpine2.png Graphic file (type png)
+<use pic/4Alpine2.png>
+Package pdftex.def Info: pic/4Alpine2.png  used on input line 689.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/4Alpine.png, id=694, 632.3625pt x 474.27188pt>
+File: pic/4Alpine.png Graphic file (type png)
+<use pic/4Alpine.png>
+Package pdftex.def Info: pic/4Alpine.png  used on input line 693.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/5Sphere.png, id=695, 632.3625pt x 474.27188pt>
+File: pic/5Sphere.png Graphic file (type png)
+<use pic/5Sphere.png>
+Package pdftex.def Info: pic/5Sphere.png  used on input line 697.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/6Rosenbrock2.png, id=696, 632.3625pt x 474.27188pt>
+File: pic/6Rosenbrock2.png Graphic file (type png)
+<use pic/6Rosenbrock2.png>
+Package pdftex.def Info: pic/6Rosenbrock2.png  used on input line 701.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/7Schwefel.png, id=697, 632.3625pt x 474.27188pt>
+File: pic/7Schwefel.png Graphic file (type png)
+<use pic/7Schwefel.png>
+Package pdftex.def Info: pic/7Schwefel.png  used on input line 705.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
+<pic/8Sum_of_Different_Power.png, id=698, 632.3625pt x 474.27188pt>
+File: pic/8Sum_of_Different_Power.png Graphic file (type png)
+<use pic/8Sum_of_Different_Power.png>
+Package pdftex.def Info: pic/8Sum_of_Different_Power.png  used on input line 70
+9.
+(pdftex.def)             Requested size: 107.9762pt x 80.97975pt.
 
-Package caption Warning: \label without proper reference on input line 625.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab5' on page 12 undefined on input line 620.
-
-
-Overfull \hbox (9.9581pt too wide) in paragraph at lines 628--652
- [][][] 
+Underfull \hbox (badness 1189) in paragraph at lines 717--718
+\OT1/cmr/m/n/10 (+20) [[][]30[][]] [[][]31[][]]|\C70/rm/m/n/10/ff | \C70/rm/m/
+n/10/5e & \C70/rm/m/n/10/67 	 \C70/rm/m/n/10/4e ¤ \C70/rm/m/n/10/53 É \C70/rm/m
+/n/10/54 Œ \C70/rm/m/n/10/5b P \C70/rm/m/n/10/79 Í \C70/rm/m/n/10/7f ¤ \C70/rm/
+m/n/10/76 „ \C70/rm/m/n/10/6d ÷ \C70/rm/m/n/10/54  \C70/rm/m/n/10/7c ’ \C70/rm
+/m/n/10/5b P \C70/rm/m/n/10/7f ¤ \C70/rm/m/n/10/4f 
  []
 
 
-Overfull \hbox (9.96106pt too wide) in paragraph at lines 661--687
- [][][] 
+Overfull \hbox (10.3155pt too wide) in paragraph at lines 728--741
+ [][] 
  []
 
 
-Overfull \hbox (9.9657pt too wide) in paragraph at lines 695--719
- [][][] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13 <./pic/1Ackley32.png (PNG copy)> <./pic/1Ackley2.png (PNG copy)> <./pic/2Ra
+strigin2.png (PNG copy)> <./pic/2Rastrigin3.png (PNG copy)> <./pic/3Griewank600
+.png (PNG copy)> <./pic/3Griewank2.png (PNG copy)> <./pic/4Alpine2.png (PNG cop
+y)> <./pic/4Alpine.png (PNG copy)> <./pic/5Sphere.png (PNG copy)> <./pic/6Rosen
+brock2.png (PNG copy)> <./pic/7Schwefel.png (PNG copy)> <./pic/8Sum_of_Differen
+t_Power.png (PNG copy)>]
+Overfull \hbox (13.9458pt too wide) in paragraph at lines 762--784
+ [][] 
+ []
+
+<pic/Ackley1.png, id=739, 632.3625pt x 474.27188pt>
+File: pic/Ackley1.png Graphic file (type png)
+<use pic/Ackley1.png>
+Package pdftex.def Info: pic/Ackley1.png  used on input line 822.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Rastrigin1.png, id=740, 632.3625pt x 474.27188pt>
+File: pic/Rastrigin1.png Graphic file (type png)
+<use pic/Rastrigin1.png>
+Package pdftex.def Info: pic/Rastrigin1.png  used on input line 826.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Griewank1.png, id=741, 632.3625pt x 474.27188pt>
+File: pic/Griewank1.png Graphic file (type png)
+<use pic/Griewank1.png>
+Package pdftex.def Info: pic/Griewank1.png  used on input line 830.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Alpine1.png, id=742, 632.3625pt x 474.27188pt>
+File: pic/Alpine1.png Graphic file (type png)
+<use pic/Alpine1.png>
+Package pdftex.def Info: pic/Alpine1.png  used on input line 834.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Sphere1.png, id=743, 632.3625pt x 474.27188pt>
+File: pic/Sphere1.png Graphic file (type png)
+<use pic/Sphere1.png>
+Package pdftex.def Info: pic/Sphere1.png  used on input line 838.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Rosenbrock1.png, id=744, 632.3625pt x 474.27188pt>
+File: pic/Rosenbrock1.png Graphic file (type png)
+<use pic/Rosenbrock1.png>
+Package pdftex.def Info: pic/Rosenbrock1.png  used on input line 842.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Schwefel1.png, id=745, 632.3625pt x 474.27188pt>
+File: pic/Schwefel1.png Graphic file (type png)
+<use pic/Schwefel1.png>
+Package pdftex.def Info: pic/Schwefel1.png  used on input line 846.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/SDP1.png, id=746, 632.3625pt x 474.27188pt>
+File: pic/SDP1.png Graphic file (type png)
+<use pic/SDP1.png>
+Package pdftex.def Info: pic/SDP1.png  used on input line 850.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Ackley2.png, id=747, 632.3625pt x 474.27188pt>
+File: pic/Ackley2.png Graphic file (type png)
+<use pic/Ackley2.png>
+Package pdftex.def Info: pic/Ackley2.png  used on input line 860.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Rastrigin2.png, id=748, 632.3625pt x 474.27188pt>
+File: pic/Rastrigin2.png Graphic file (type png)
+<use pic/Rastrigin2.png>
+Package pdftex.def Info: pic/Rastrigin2.png  used on input line 864.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Griewank2.png, id=749, 632.3625pt x 474.27188pt>
+File: pic/Griewank2.png Graphic file (type png)
+<use pic/Griewank2.png>
+Package pdftex.def Info: pic/Griewank2.png  used on input line 868.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Alpine2.png, id=750, 632.3625pt x 474.27188pt>
+File: pic/Alpine2.png Graphic file (type png)
+<use pic/Alpine2.png>
+Package pdftex.def Info: pic/Alpine2.png  used on input line 872.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Sphere2.png, id=751, 632.3625pt x 474.27188pt>
+File: pic/Sphere2.png Graphic file (type png)
+<use pic/Sphere2.png>
+Package pdftex.def Info: pic/Sphere2.png  used on input line 876.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Rosenbrock2.png, id=752, 632.3625pt x 474.27188pt>
+File: pic/Rosenbrock2.png Graphic file (type png)
+<use pic/Rosenbrock2.png>
+Package pdftex.def Info: pic/Rosenbrock2.png  used on input line 880.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/Schwefel2.png, id=753, 632.3625pt x 474.27188pt>
+File: pic/Schwefel2.png Graphic file (type png)
+<use pic/Schwefel2.png>
+Package pdftex.def Info: pic/Schwefel2.png  used on input line 884.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/SDP2.png, id=754, 632.3625pt x 474.27188pt>
+File: pic/SDP2.png Graphic file (type png)
+<use pic/SDP2.png>
+Package pdftex.def Info: pic/SDP2.png  used on input line 888.
+(pdftex.def)             Requested size: 150.234pt x 112.66968pt.
+<pic/10000.png, id=756, 632.3625pt x 474.27188pt>
+File: pic/10000.png Graphic file (type png)
+<use pic/10000.png>
+Package pdftex.def Info: pic/10000.png  used on input line 905.
+(pdftex.def)             Requested size: 224.77678pt x 168.58118pt.
+[14 <./pic/10000.png (PNG copy)>] [15] [16 <./pic/Ackley1.png (PNG copy)> <./pi
+c/Rastrigin1.png (PNG copy)> <./pic/Griewank1.png (PNG copy)> <./pic/Alpine1.pn
+g (PNG copy)> <./pic/Sphere1.png (PNG copy)> <./pic/Rosenbrock1.png (PNG copy)>
+ <./pic/Schwefel1.png (PNG copy)> <./pic/SDP1.png (PNG copy)>] [17 <./pic/Ackle
+y2.png (PNG copy)> <./pic/Rastrigin2.png (PNG copy)> <./pic/Griewank2.png (PNG 
+copy)> <./pic/Alpine2.png (PNG copy)> <./pic/Sphere2.png (PNG copy)> <./pic/Ros
+enbrock2.png (PNG copy)> <./pic/Schwefel2.png (PNG copy)> <./pic/SDP2.png (PNG 
+copy)>]) (main.bbl [18]
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
+[]\OT1/cmr/m/n/9 (+20) Amaresh Sahu, Sushanta Ku-mar Pan-i-grahi,
  []
 
 
-Overfull \hbox (9.9655pt too wide) in paragraph at lines 725--749
- [][][] 
+Underfull \hbox (badness 2460) in paragraph at lines 135--140
+\OT1/cmr/m/n/9 (+20) Fast con-ver-gence par-ti-cle swarm op-ti-miza-tion
  []
 
-[12]) (main.bbl)
-
-Package caption Warning: Unused \captionsetup[figure] on input line 61.
-See the caption package documentation for explanation.
-
-
+Package CJKpunct Info: use punctuation spaces for family 'zhkai' with punctstyl
+e (quanjiao) on input line 149.
+) 
 AED: lastpage setting LastPage
 - LAST -
-Extra skip:20.10355pt
-Left:571.27972pt/1.0pt
-Right:549.92618pt/2.25pt
-Output:565.40297pt
-[13]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+Extra skip:17.97675pt
+Left:542.80121pt/1.75pt
+Right:526.57446pt/0.0pt
+Output:537.83784pt
+[19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FA6B8B117A53A9F71D65F6A49716850A;5982.
-
-
-LaTeX Warning: There were undefined references.
+(rerunfilecheck)             Checksum: 6EBFA5D41BD97D4D922B850BC32031F3;5983.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31628 strings out of 492946
- 525674 string characters out of 3143504
- 730927 words of memory out of 3000000
- 34417 multiletter control sequences out of 15000+200000
- 621059 words of font info for 380 fonts, out of 3000000 for 9000
+ 33526 strings out of 492946
+ 557739 string characters out of 3143504
+ 734727 words of memory out of 3000000
+ 35983 multiletter control sequences out of 15000+200000
+ 635249 words of font info for 460 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,19n,63p,1213b,545s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/s
-imsun.ttc> <C:\Users\HP\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dp
-i600\tcrm1000.pk><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/
+ 69i,18n,63p,1260b,749s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/WINDOWS/Fonts/simkai.ttf><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/s
+imhei.ttf><C:/WINDOWS/Fonts/simsun.ttc> <C:\Users\HP\AppData\Local\MiKTeX\2.9\f
+onts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/WINDOWS/Fonts/simsun.ttc><C:/
 WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.
 ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts
 /simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDO
@@ -1571,7 +1784,7 @@ n.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fon
 ts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WIN
 DOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc
 ><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/si
-msun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/
+msun.ttc><C:/WINDOWS/Fonts/simsun.ttc><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/
 Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/
 WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.
 ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts
@@ -1599,22 +1812,26 @@ S/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C
 i.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fon
 ts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WIN
 DOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf
-><C:/WINDOWS/Fonts/simhei.ttf><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.
-pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><E:/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cmextra/cm
-ex7.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi5.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr5.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.p
-fb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><E:/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmss10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pf
-b><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><E:/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmssbx10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (13 pages, 1140785 bytes).
+><C:/WINDOWS/Fonts/simhei.ttf><C:/WINDOWS/Fonts/simhei.ttf><E:/MiKTeX/fonts/typ
+e1/public/amsfonts/cmextra/cmbsy7.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbx10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><E:/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx7.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmex10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><E:/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><E:/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmib10.pfb><E:/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><E:/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmr8.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><E:/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmss10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ss12.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><E:/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmssbx10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><E:/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmti10.pfb><E:/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmti9.pfb>
+Output written on main.pdf (19 pages, 4511367 bytes).
 PDF statistics:
- 1136 PDF objects out of 1200 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 29877 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 1405 PDF objects out of 1440 (max. 8388607)
+ 238 named destinations out of 1000 (max. 500000)
+ 32105 words of extra memory for PDF output out of 35830 (max. 10000000)
 
