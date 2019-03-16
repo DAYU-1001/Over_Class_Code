@@ -1,0 +1,147 @@
+
+html, body { height: 100%;margin: 0;}
+
+body{
+
+}
+a:link{color:black;}
+a:visited{color:black;}
+a:hover{color:dodgerblue;}
+a:active{color:dodgerblue;}
+/*取消下划线*/
+a{text-decoration:none;font-family: "等线 Light";font-size: 20px;}
+
+.container {
+    background: url("BG2018.jpg") no-repeat;
+    /*background-repeat:no-repeat ;*/
+    background-size:100%;
+    /*background-attachment: fixed;*/
+    width: auto;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.title {
+    /*width: 70%;*/
+    /*position: center;*/
+    /*margin: 0px auto;*/
+    /*padding: 0px;*/
+    /*background: whitesmoke;*/
+    /*height : auto;*/
+    width: 100%;
+    height: 14%;
+    /*margin-bottom: 0;*/
+    padding: 0;
+    margin: 20px;
+    background: white;
+}
+.logo{
+    width: 10%;
+    /*padding: 10px;*/
+    /*margin: 20px;*/
+    height: auto;
+    float: left;
+}
+.name{
+    /*山东师范大学title*/
+    /*text-align: center;*/
+    font-size: x-large;
+    font-family: 等线;
+    margin-top: 1%;
+    /*垂直居中*/
+    /*vertical-align: middle;*/
+    width: auto;
+    height: auto;
+    float: left;
+    /*float: right;*/
+}
+.search{
+    width: auto;
+    height: 100px;
+    margin-right: 60px;
+    float: right;
+}
+.cate_container {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    position: center;
+    background: white;
+    padding: 0px;
+    /*background: lightgray;*/
+    height : 8%;
+}
+.category {
+    width: 8%;
+    /*position: center;*/
+    margin: 6px auto;
+    margin-left: 3%;
+    /*vertical-align: middle;*/
+    /*padding: 15px;*/
+    float: left;
+    background: white;
+    height : 10%;
+}
+.left {
+    width: 67%;
+    height: 100%;
+    /*margin-top: 1%;*/
+    /*margin-left: 10px;*/
+    /*margin-right: 0;*/
+
+    font-family: 等线;
+    font-size: larger;
+    float: left;
+    /*background: white;*/
+}
+.right {
+    width: 32%;
+    height: 100%;
+    font-family: 等线;
+    font-size: larger;
+    /*margin-top: 1% ;*/
+    /*margin-left: 0px;*/
+    /*margin-right: 20px;*/
+    float: right;
+    /*background: white;*/
+}
+.left_1{
+    height: 5%;
+    background-color: rgba(255,255,255,0.5);
+
+    /*background: lemonchiffon;*/
+}
+.left_2{
+    height: 45%;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.5);
+    /*background: white;*/
+}
+.right_1{
+    height: 30%;
+    /*background: white;*/
+    background-color: rgba(255,255,255,0.5);
+}
+.right_2{
+    height: 25%;
+    /*background: white;*/
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.5);
+}
+.bottom {
+    width: auto;
+    height: 1%;
+    /*margin-left: 20px;*/
+    /*margin-right:10px ;*/
+    padding: 0px;
+    /*background: #003399;*/
+    height : auto;
+    float: bottom;
+    text-align: right;
+}
+
+
+
